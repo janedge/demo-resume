@@ -1,0 +1,27 @@
+@import '~@alifd/theme-1/dist/next.css';
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #F2F2F2;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.next-large{
+  border-radius: 3px !important;
+}
+.next-medium{
+  border-radius: 3px !important;
+}
+.next-split{
+  display: inline-block;
+  margin: 0 10px;
+  vertical-align: middle;
+  line-height: 28px;
+}

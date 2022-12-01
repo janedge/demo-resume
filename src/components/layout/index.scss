@@ -1,0 +1,103 @@
+.resume {
+  .next-shell-header {
+    display: block;
+    .next-shell-navigation {
+      display: block;
+      width: 1180px;
+      margin: 0 auto;
+
+      .next-menu {
+        display: flex;
+
+        .next-menu-content {
+          height: 100%;
+          flex: 1;
+          display: flex;
+          justify-content: center;
+          .next-menu-item {
+            margin-right: 50px;
+            padding: 0;
+            .next-menu-item-inner {
+              font-size: 14px;
+
+              .next-menu-item-text {
+                line-height: 48px;
+              }
+              .next-icon {
+                margin-right: 8px;
+                height: 100%;
+              }
+              .next-icon::before {
+                font-size: 18px;
+                width: 16px;
+                vertical-align: bottom;
+              }
+            }
+          }
+          .next-selected {
+            color: #ff6f00;
+            font-weight: 500;
+            background: #fff;
+          }
+        }
+      }
+    }
+  }
+  .next-shell-main {
+    width: 100%;
+    max-width: 1800px;
+    min-width: 1440px;
+    margin: 0 auto;
+    background: #f7f8fa;
+    .next-aside-navigation {
+      .next-shell-collapse {
+        .next-shell-mini {
+          width: 80px;
+        }
+      }
+      .next-shell-navigation {
+        width: 220px;
+        padding: 0;
+
+        .next-menu-item {
+          .next-menu-item-inner {
+            font-size: 14px;
+            height: 48px;
+            .next-menu-item-text {
+              line-height: 48px;
+            }
+            .next-icon {
+              margin-right: 8px;
+              height: 100%;
+            }
+            .next-icon::before {
+              font-size: 18px;
+              width: 16px;
+              vertical-align: bottom;
+            }
+          }
+        }
+        .next-selected {
+          background: #fff7f0;
+          color: #ff6f00;
+          font-weight: 500;
+        }
+        .nav-trigger {
+          position: absolute;
+          bottom: 0;
+          background: #fff;
+          border-right: 1px solid #f1f3f6;
+          border-top: 1px solid #f1f3f6;
+          color: #a5afbc;
+          cursor: pointer;
+          height: 40px;
+          width: 100%;
+          text-align: center;
+          z-index: 11;
+        }
+      }
+    }
+    .next-shell-sub-main {
+    }
+  }
+}

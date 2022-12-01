@@ -1,0 +1,79 @@
+.resume {
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  overflow-x: auto;
+  .header {
+    height: 132px;
+    margin: 20px 20px 0;
+    .next-card {
+      height: 100%;
+      .avatr {
+        width: 64px;
+        height: 64px;
+        cursor: pointer;
+        position: absolute;
+        margin: 29px 22px 39px 24px;
+        z-index: 10;
+        overflow: hidden;
+        border-radius: 50%;
+        .avatrImg {
+          width: 64px;
+          height: 64px;
+          background-position: 50%;
+          background-size: cover;
+          background-repeat: no-repeat;
+          & + span {
+            position: absolute;
+            z-index: 12;
+            line-height: 24px;
+            height: 24px;
+            display: none;
+            width: 64px;
+            text-align: center;
+            bottom: 6px;
+            background-color: rgba(0, 0, 0, 0.6);
+            color: #fff;
+            font-size: 10px;
+          }
+        }
+      }
+      .content {
+        padding: 30px 24px 15px 106px;
+        height: 100%;
+        line-height: 100%;
+        .contentFont {
+          font-size: 16px;
+          color: #000;
+          letter-spacing: 0;
+          font-weight: 900;
+        }
+        .contentImg {
+          border-radius: 50%;
+          height: 29px;
+          width: 29px;
+          background-color: rgba(255, 106, 0, 0.08);
+          display: inline-block;
+          vertical-align: middle;
+          margin-right: 5px;
+          img {
+            width: 19px;
+            margin: 5px;
+          }
+        }
+      }
+    }
+  }
+  .resumeForm {
+    padding: 0 195px 20px 20px;
+    .submitButton {
+      width: 100%;
+      height: 56px;
+      background-color: #fff;
+      margin-top: 20px;
+      button {
+        margin: 0 20px;
+      }
+    }
+  }
+}

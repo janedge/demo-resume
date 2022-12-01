@@ -1,0 +1,13 @@
+.datePickers {
+  .next-date-picker2 {
+    width: calc((100% - 26px) / 2);
+
+    .next-date-picker2-input-medium {
+      border-radius: 0;
+    }
+  }
+  .next-form-preview {
+    display: inline;
+    width: calc((100% - 26px) / 2);
+  }
+}

@@ -1,0 +1,45 @@
+.formUi {
+  .templateItem {
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: flex-start;
+    margin-bottom: 15px;
+    .formDelete {
+      position: absolute;
+      top: -5px;
+      right: 24px;
+      color: #f37327;
+      cursor: pointer;
+      line-height: 36px;
+    }
+    .eachItem {
+      flex: 1;
+      margin-right: 24px;
+      width: calc((100% - 48px) / 2); // 这里的10px = (分布个数3-1)*间隙5px, 可以根据实际的分布个数和间隙区调整
+      min-width: calc((100% - 48px) / 2); // 加入这两个后每个item的宽度就生效了
+      max-width: calc((100% - 48px) / 2); // 加入这两个后每个item的宽度就生效了
+    }
+    .eachItemAll {
+      margin-right: 24px;
+      width: 100%;
+    }
+  }
+  .addItem {
+    padding: 16px 24px 16px 0;
+    margin-bottom: 20px;
+    border-top: 1px dotted rgba(31, 56, 88, 0.1);
+    border-bottom: 1px dotted rgba(31, 56, 88, 0.1);
+    width: 100%;
+    color: #3c99d8;
+    cursor: pointer;
+    span {
+      padding-left: 1px;
+    }
+  }
+  .next-btn {
+    padding: 0 16px;
+    height: 28px;
+  }
+}

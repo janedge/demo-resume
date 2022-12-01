@@ -1,0 +1,30 @@
+.TheHeader {
+  .next-menu-header {
+    height: 100% !important;
+    .logo {
+      display: flex;
+      align-items: center;
+      float: left;
+      height: 50px;
+    }
+    .logo::before {
+      content: '';
+      width: 196px;
+      height: 20px;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-image: url('https://img.alicdn.com/imgextra/i1/O1CN01vqz0ze2ACzl0ZwfzO_!!6000000008168-2-tps-400-48.png');
+    }
+  }
+  .info {
+    display: flex;
+    height: 50px;
+    line-height: 50px;
+    font-size: 14px;
+    width: 220px;
+    justify-content: space-between;
+    :first-child {
+      margin-left: 50px;
+    }
+  }
+}
