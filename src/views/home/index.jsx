@@ -3,8 +3,8 @@ import { useState } from 'react';
 const { MonthPicker, YearPicker, WeekPicker, QuarterPicker } = DatePicker2;
 
 const onChange = (date, dateStr) => console.log(date, dateStr);
-
-export default function App() {
+//测试页面
+export default function Index() {
   const [test, setTest] = useState('');
   return (
     <Form className="app" style={{ height: '100vh' }}>
